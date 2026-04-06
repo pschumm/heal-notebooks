@@ -9,46 +9,17 @@ project:
   # github:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   exclude:
-    - containers/azlinux-jupyter-scipy
-    - containers/BRH-notebooks
+    - containers/azlinux*
+    - containers/BRH*
     - containers/HEAL-notebooks/combined_tutorials/tutorial-welcome.md
-    - containers/HEAL-notebooks/Dockerfile
     - containers/HEAL-notebooks/generic_rkernel
     - containers/HEAL-notebooks/README.md
-    - containers/jupyter
-    - containers/jupyter-6.4.0
-    - containers/jupyter-6.4.0-with-base-packages
-    - containers/jupyter-account
-    - containers/jupyter-bacpac
-    - containers/jupyter-bih
-    - containers/jupyter-brain
-    - containers/jupyter-covid19
-    - containers/jupyter-daids
-    - containers/jupyter-dait
-    - containers/jupyter-dmid
-    - containers/jupyter-geo
-    - containers/jupyter-jcoin
-    - containers/jupyter-midrc
-    - containers/jupyter-nde-base
-    - containers/jupyter-nextflow
-    - containers/jupyter-niaid
-    - containers/jupyter-prometheus
-    - containers/jupyter-pystata-gen3-licensed
-    - containers/jupyter-pystata-user-licensed
-    - containers/jupyter-restricted-download
-    - containers/jupyter-slim
-    - containers/jupyter-tb
-    - containers/jupyter-vadc
-    - containers/jupyter-VPODC-ml
-    - containers/jupyterlab-generic
-    - containers/LICENSE
-    - containers/nextflow-base-images
-    - containers/nginx-igv
-    - containers/NOTICE
-    - containers/python3.9-data-science
-    - containers/README.md
-    - containers/utilities
-    - containers/vlmd-submission-tools
+    - containers/jupyter*
+    - containers/nextflow*
+    - containers/nginx*
+    - containers/python*
+    - containers/utilities*
+    - containers/vlmd-submission-tools*
 site:
   template: book-theme
   options:
