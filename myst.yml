@@ -7,7 +7,6 @@ project:
   # keywords: []
   # authors: []
   # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
   exclude:
     - containers/azlinux*
     - containers/BRH*
@@ -20,6 +19,24 @@ project:
     - containers/python*
     - containers/utilities*
     - containers/vlmd-submission-tools*
+  toc:
+    - file: containers/HEAL-notebooks/combined_tutorials/HDP00258_BACPACSyntheticDataEDA.ipynb
+    - title: HEAL Notebooks
+      children:
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/HDP00258_BACPACSyntheticDataEDA.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/HDP00384_HighResSpinalCordStimulation_NeuropathicPain.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/HDP01287_ReducingStigmaTowardOUD.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/HDP01288_PHARMSCREEN.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/HDP01319_SWIFT.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/Opioid_Overdose_Trajectories.ipynb
+            - file: >-
+                containers/HEAL-notebooks/combined_tutorials/Opioid_Prevalence_And_Overdoses.ipynb
 site:
   template: book-theme
   options:
