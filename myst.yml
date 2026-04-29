@@ -20,8 +20,8 @@ project:
     - containers/utilities*
     - containers/vlmd-submission-tools*
   toc:
-    - file: containers/HEAL-notebooks/combined_tutorials/HDP00258_BACPACSyntheticDataEDA.ipynb
-    - title: HEAL Notebooks
+    - file: README.md
+    - title: Notebooks
       children:
             - file: >-
                 containers/HEAL-notebooks/combined_tutorials/HDP00258_BACPACSyntheticDataEDA.ipynb
@@ -42,4 +42,4 @@ site:
   options:
   #   favicon: favicon.ico
     logo: images/nih-logo.webp
-    logo_text: HEAL Example Notebooks
+    logo_text: HEAL Example Analyses
