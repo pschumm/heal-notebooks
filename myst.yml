@@ -19,6 +19,9 @@ project:
     - containers/python*
     - containers/utilities*
     - containers/vlmd-submission-tools*
+    - heal-reuse-examples/LICENSE
+    - heal-reuse-examples/README.md
+    - heal-reuse-examples/gad2_demographics_example/README.md
   toc:
     - file: README.md
     - title: Notebooks
@@ -42,6 +45,9 @@ project:
                 containers/HEAL-notebooks/combined_tutorials/Opioid_Prevalence_And_Overdoses.ipynb
 site:
   template: book-theme
+  nav:
+    - title: Return to Platform
+      url: https://healdata.org
   options:
   #   favicon: favicon.ico
     logo: images/nih-logo.webp
